@@ -12,4 +12,6 @@ echo "<tr><td>" . $row['data'] . "</td></tr>" ;  //$row['index'] the index here 
 
 echo "</table>"; //Close the table in HTML
 
+
+echo "this index is not real";
 ?>
