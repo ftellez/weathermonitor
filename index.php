@@ -1,5 +1,5 @@
 <?php
-
+$conn = mysqli_connect('localhost', '', '', ''); 
 
 $query = "SELECT data FROM Prueba"; //You don't need a ; like you do in SQL
 $result= mysqli_query($conn,$query);
