@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'u278220770_sens', 'D33qsoG96z', 'u278220770_proy'); //The Blank string is the password
+
 
 $query = "SELECT data FROM Prueba"; //You don't need a ; like you do in SQL
 $result= mysqli_query($conn,$query);
